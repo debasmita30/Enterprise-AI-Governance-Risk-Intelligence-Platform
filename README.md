@@ -431,21 +431,25 @@ This platform is cloud-native and deploys to any container-compatible service:
 ```mermaid
 gantt
     title Platform Roadmap
-    dateFormat  YYYY-Q
-    section Current
-    Multi-factor Risk Scoring     :done, 2024-Q3, 1Q
-    Monte Carlo Simulation        :done, 2024-Q3, 1Q
-    Role-Based Workflows          :done, 2024-Q3, 1Q
-    Docker + Cloud Deployment     :done, 2024-Q4, 1Q
-    section Near-term
-    Real-time API Benchmarking    :active, 2025-Q1, 1Q
-    PostgreSQL Migration          :2025-Q1, 1Q
-    Immutable Audit Ledger        :2025-Q2, 1Q
-    section Future
-    Multi-region Compliance Maps  :2025-Q3, 1Q
-    Granular RBAC Controls        :2025-Q3, 1Q
-    CI/CD Automation              :2025-Q4, 1Q
-    Kubernetes Support            :2025-Q4, 1Q
+    dateFormat  YYYY-MM-DD
+    axisFormat  %b %Y
+
+    section ✅ Current
+    Multi-factor Risk Scoring       :done,    2024-07-01, 90d
+    Monte Carlo Simulation          :done,    2024-07-01, 90d
+    Role-Based Workflows            :done,    2024-08-01, 60d
+    Docker + Cloud Deployment       :done,    2024-10-01, 60d
+
+    section 🔧 Near-term
+    Real-time API Benchmarking      :active,  2025-01-01, 90d
+    PostgreSQL Migration            :active,  2025-02-01, 90d
+    Immutable Audit Ledger          :         2025-04-01, 90d
+
+    section 🚀 Future
+    Multi-region Compliance Maps    :         2025-07-01, 90d
+    Granular RBAC Controls          :         2025-07-01, 90d
+    CI/CD Automation                :         2025-10-01, 90d
+    Kubernetes Support              :         2025-10-01, 90d
 ```
 
 ---
