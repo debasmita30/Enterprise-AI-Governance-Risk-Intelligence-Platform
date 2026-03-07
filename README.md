@@ -7,7 +7,7 @@
 ![Deployment](https://img.shields.io/badge/Deployment-Cloud_Ready-green)
 ![License](https://img.shields.io/badge/Status-Production_Style-success)
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge&logo=render)](https://enterprise-ai-governance-risk.onrender.com)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge&logo=render)](https://enterprise-ai-governance-risk.streamlit.app/)
 
 A Dockerized, production-style AI evaluation and governance system designed to help enterprises evaluate, select, deploy, and monitor AI technologies responsibly at scale.
 
