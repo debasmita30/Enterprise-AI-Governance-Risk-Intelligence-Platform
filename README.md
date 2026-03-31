@@ -621,13 +621,6 @@ gantt
 
 ### ⭐ If this project helped you, give it a star!
 
-[![Star History](https://img.shields.io/github/stars/your-username/enterprise-ai-governance?style=social)](https://github.com/debasmita30/Enterprise-AI-Governance-Risk-Intelligence-Platform)
-&nbsp;&nbsp;
-[![Fork](https://img.shields.io/github/forks/your-username/enterprise-ai-governance?style=social)](https://github.com/debasmita30/Enterprise-AI-Governance-Risk-Intelligence-Platform)
-&nbsp;&nbsp;
-[![Watch](https://img.shields.io/github/watchers/your-username/enterprise-ai-governance?style=social)](https://github.com/debasmita30/Enterprise-AI-Governance-Risk-Intelligence-Platform)
-
-<br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=130&section=footer" width="100%"/>
 
