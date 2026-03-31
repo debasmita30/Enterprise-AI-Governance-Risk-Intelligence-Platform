@@ -621,11 +621,11 @@ gantt
 
 ### ⭐ If this project helped you, give it a star!
 
-[![Star History](https://img.shields.io/github/stars/your-username/enterprise-ai-governance?style=social)](https://github.com/debasmita30/Enterprise-AI-Governance-Risk-Intelligence-Platform/main/)
+[![Star History](https://img.shields.io/github/stars/your-username/enterprise-ai-governance?style=social)](https://github.com/debasmita30/Enterprise-AI-Governance-Risk-Intelligence-Platform)
 &nbsp;&nbsp;
-[![Fork](https://img.shields.io/github/forks/your-username/enterprise-ai-governance?style=social)](https://github.com/debasmita30/Enterprise-AI-Governance-Risk-Intelligence-Platform/main/)
+[![Fork](https://img.shields.io/github/forks/your-username/enterprise-ai-governance?style=social)](https://github.com/debasmita30/Enterprise-AI-Governance-Risk-Intelligence-Platform)
 &nbsp;&nbsp;
-[![Watch](https://img.shields.io/github/watchers/your-username/enterprise-ai-governance?style=social)](https://github.com/debasmita30/Enterprise-AI-Governance-Risk-Intelligence-Platform/main/)
+[![Watch](https://img.shields.io/github/watchers/your-username/enterprise-ai-governance?style=social)](https://github.com/debasmita30/Enterprise-AI-Governance-Risk-Intelligence-Platform)
 
 <br/>
 
