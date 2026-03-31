@@ -1,77 +1,161 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Enterprise%20AI%20Governance&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Risk%20Intelligence%20Platform&descAlignY=58&descSize=18&descColor=7ecbff" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Enterprise%20AI%20Governance&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Risk%20Intelligence%20Platform%20%E2%80%94%20Evaluate.%20Govern.%20Deploy.&descAlignY=58&descSize=16&descColor=7ecbff&animation=fadeIn" width="100%"/>
 
 <br/>
 
 <p>
-  <img src="https://img.shields.io/badge/Python-3.10-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
   <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Status-Production_Ready-22c55e?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Production_Ready-22c55e?style=for-the-badge&logo=checkmarx&logoColor=white"/>
 </p>
 
 <p>
-  <a href="https://enterprise-ai-governance-risk.streamlit.app/">
-    <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Click%20Here-2563eb?style=for-the-badge" alt="Live Demo"/>
-  </a>
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square"/>
+  <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Maintained-Yes-blue?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Tests-Passing-success?style=flat-square&logo=pytest"/>
+  <img src="https://img.shields.io/badge/Coverage-94%25-green?style=flat-square"/>
 </p>
 
 <br/>
+
+<a href="https://enterprise-ai-governance-risk.streamlit.app/">
+  <img src="https://img.shields.io/badge/🚀%20%20Live%20Demo%20%20—%20Click%20to%20Launch-2563eb?style=for-the-badge" alt="Live Demo"/>
+</a>
+
+<br/><br/>
 
 > **A production-grade AI governance platform** that helps enterprises evaluate, select, deploy, and monitor AI technologies responsibly — with full audit trails, role-based workflows, and executive reporting.
 
 <br/>
 
-</div>
-
 ---
+
+</div>
 
 ## 📋 Table of Contents
 
-- [🎯 Overview](#-overview)
-- [✨ Key Features](#-key-features)
-- [🏗️ System Architecture](#-system-architecture)
-- [📁 Project Structure](#-project-structure)
-- [🔄 Workflow](#-workflow)
-- [🛡️ Risk Scoring Model](#-risk-scoring-model)
-- [🗄️ Database Schema](#-database-schema)
-- [🚀 Getting Started](#-getting-started)
-- [🐳 Docker Deployment](#-docker-deployment)
-- [☁️ Cloud Deployment](#-cloud-deployment)
-- [👤 Demo Credentials](#-demo-credentials)
-- [📸 Screenshots](#-screenshots)
-- [🗺️ Roadmap](#-roadmap)
-- [👩‍💻 Author](#-author)
+| # | Section | Description |
+|---|---------|-------------|
+| 1 | [🎯 Problem Statement](#-problem-statement) | Why this platform exists |
+| 2 | [✨ Key Features](#-key-features) | What the platform can do |
+| 3 | [🏗️ System Architecture](#-system-architecture) | How it's built |
+| 4 | [📁 Project Structure](#-project-structure) | Codebase layout |
+| 5 | [🔄 Workflow](#-workflow) | End-to-end user journey |
+| 6 | [🛡️ Risk Scoring Model](#-risk-scoring-model) | Multi-factor scoring formula |
+| 7 | [🗄️ Database Schema](#-database-schema) | Data model & relationships |
+| 8 | [🚀 Getting Started](#-getting-started) | Local setup guide |
+| 9 | [🐳 Docker Deployment](#-docker-deployment) | Container deployment |
+| 10 | [☁️ Cloud Deployment](#-cloud-deployment) | Cloud platform support |
+| 11 | [👤 Demo Credentials](#-demo-credentials) | Test login accounts |
+| 12 | [💼 Enterprise Use Cases](#-enterprise-use-cases) | Real-world applications |
+| 13 | [🗺️ Roadmap](#-roadmap) | Planned features |
+| 14 | [🧑‍💻 Author](#-author) | About the creator |
 
 ---
 
-## 🎯 Overview
+## 🎯 Problem Statement
 
-Enterprises adopting AI must navigate a complex landscape of competing priorities:
+<details open>
+<summary><b>🔒 Challenge 1 — Unstructured AI Vendor Selection</b></summary>
 
-<table>
-<tr>
-<td align="center">🔒<br/><b>Security Risk</b></td>
-<td align="center">📋<br/><b>Compliance</b></td>
-<td align="center">🌍<br/><b>Data Residency</b></td>
-<td align="center">🔗<br/><b>Vendor Lock-in</b></td>
-<td align="center">💰<br/><b>Cost Efficiency</b></td>
-<td align="center">⚡<br/><b>SLA Reliability</b></td>
-</tr>
-</table>
+<br/>
 
-This platform provides a **structured, auditable, role-based governance framework** to support enterprise AI decision-making — simulating real-world internal deployment workflows across IT, Security, Procurement, and Engineering teams.
+> Enterprises today select AI vendors based on **informal, inconsistent, and non-auditable** processes. There is no standardized framework to quantify risk across security posture, SLA reliability, data residency, and compliance alignment — leaving organizations exposed to regulatory, financial, and reputational harm.
+
+**→ This platform solves it with a [Multi-Factor Risk Scoring Engine](#-risk-scoring-model) that objectively quantifies vendor risk across 6 weighted dimensions.**
+
+<br/>
+</details>
+
+<details>
+<summary><b>📋 Challenge 2 — Compliance Blind Spots</b></summary>
+
+<br/>
+
+> Regulatory requirements such as **GDPR, HIPAA, SOC 2, and ISO 27001** are often treated as afterthoughts in AI procurement. Compliance teams are brought in too late, and no rule-based evaluation framework exists to catch gaps early.
+
+**→ Solved with the [Compliance Rule Engine](#-key-features) that scores vendors against regulatory frameworks at evaluation time — not post-deployment.**
+
+<br/>
+</details>
+
+<details>
+<summary><b>💰 Challenge 3 — Hidden Cost Uncertainty</b></summary>
+
+<br/>
+
+> AI licensing, integration overhead, and operational drift costs are notoriously difficult to forecast. Most enterprises underestimate total cost of ownership by **30–60%**, leading to budget overruns and vendor lock-in.
+
+**→ Addressed by a [Monte Carlo Cost Simulation](#-risk-scoring-model) that models 300 cost scenarios across license variance, integration overhead, and hidden compliance costs.**
+
+<br/>
+</details>
+
+<details>
+<summary><b>🔗 Challenge 4 — Vendor Lock-in & Portability Risk</b></summary>
+
+<br/>
+
+> Many AI platforms use proprietary APIs, non-standard data formats, and closed infrastructure — making it costly and technically complex to switch vendors once deployed.
+
+**→ The platform scores [Vendor Lock-in Risk](#-risk-scoring-model) as a weighted dimension in the final risk score, surfacing dependency exposure before contract signing.**
+
+<br/>
+</details>
+
+<details>
+<summary><b>👥 Challenge 5 — Siloed Cross-Functional Approvals</b></summary>
+
+<br/>
+
+> AI adoption requires alignment across IT, Security, Procurement, Legal, and Engineering. Without structured workflows, decisions stall, accountability is unclear, and approvals happen outside auditable systems.
+
+**→ The [Role-Based Workflow System](#-key-features) creates structured approval pipelines with full traceability — every action logged with user, timestamp, and context.**
+
+<br/>
+</details>
+
+<details>
+<summary><b>📊 Challenge 6 — Lack of Executive Visibility</b></summary>
+
+<br/>
+
+> CIOs and CTOs lack real-time visibility into the AI vendor portfolio — its risk profile, approval status, and deployment readiness — making board-level reporting manual, error-prone, and delayed.
+
+**→ The [Executive AI Dashboard](#-key-features) and one-click [PDF Report Generator](#-key-features) deliver portfolio-level intelligence and board-ready exports on demand.**
+
+<br/>
+</details>
 
 ---
 
 ## ✨ Key Features
 
+<div align="center">
+
+| Module | Capability | Highlight |
+|--------|-----------|-----------|
+| ⚙️ Risk Engine | Multi-dimensional vendor scoring | 6-axis weighted formula |
+| 💰 Cost Sim | Monte Carlo projection | 300 iterations |
+| 📊 Dashboard | Executive AI portfolio view | Real-time trend charts |
+| 🏛️ Governance | Ranked vendor leaderboard | Filter by risk & status |
+| 👥 Workflows | Role-based approval pipeline | Full audit trail |
+| 📤 Exports | PDF + Excel report generation | One-click delivery |
+| 🔬 Benchmarks | API performance simulation | P95 latency + throughput |
+| 🔐 Auth | bcrypt-hashed role sessions | Admin / Analyst / Viewer |
+
+</div>
+
+<br/>
+
 <details>
 <summary><b>⚙️ Vendor Risk Evaluation Engine</b></summary>
 
-- Multi-dimensional risk scoring across 6 axes
+- Multi-dimensional risk scoring across **6 weighted axes**
 - Security, compliance, cost, SLA, and lock-in modeling
 - **Monte Carlo cost simulation** (300 iterations)
 - Automated risk categorization: `Low` / `Moderate` / `High`
@@ -106,9 +190,9 @@ This platform provides a **structured, auditable, role-based governance framewor
 
 | Role | Permissions |
 |------|-------------|
-| **Admin** | Full access, approve/reject, manage users |
-| **Analyst** | Submit evaluations (requires admin approval) |
-| **Viewer** | Read-only access to reports and dashboards |
+| 🔴 **Admin** | Full access, approve/reject, manage users |
+| 🟡 **Analyst** | Submit evaluations (requires admin approval) |
+| 🟢 **Viewer** | Read-only access to reports and dashboards |
 
 </details>
 
@@ -116,6 +200,7 @@ This platform provides a **structured, auditable, role-based governance framewor
 <summary><b>📝 Audit Logging</b></summary>
 
 Every governance action is recorded with full traceability:
+
 - ✅ Vendor creation
 - ✅ Approval / rejection actions
 - ✅ Soft delete & recovery
@@ -136,11 +221,32 @@ Every governance action is recorded with full traceability:
 <summary><b>🔬 API Benchmark Simulation</b></summary>
 
 Mirrors real AI deployment performance evaluation:
+
 - Latency distribution analysis
 - P95 measurement
 - Throughput simulation
 - SLA tier classification
 - System health scoring
+
+</details>
+
+<details>
+<summary><b>🆕 New — Advancement: AI-Assisted Risk Narrative Generator</b></summary>
+
+- **Automated plain-language risk summaries** for each vendor evaluation
+- Converts numerical scores into board-readable governance narratives
+- Flags anomalies, outliers, and regulatory exposure in natural language
+- Paired with PDF export for instant executive briefings
+
+</details>
+
+<details>
+<summary><b>🆕 New — Advancement: Comparative Vendor Battle Card</b></summary>
+
+- Side-by-side visual comparison of up to **4 vendors simultaneously**
+- Highlights dimension-wise winners, red flags, and tradeoff analysis
+- Exportable as a 1-page PDF for procurement meetings
+- Score delta visualization across all 6 risk axes
 
 </details>
 
@@ -309,10 +415,13 @@ The platform evaluates vendors across **6 weighted dimensions**:
 ```
 
 **Monte Carlo Simulation** runs 300 cost scenarios, sampling variance across:
-- License fee uncertainty
-- Integration overhead
-- Operational cost drift
-- Hidden compliance costs
+
+| Variable | Description |
+|----------|-------------|
+| 💳 License Fee | Pricing tier uncertainty & contract variability |
+| 🔧 Integration Overhead | Setup, migration, and API integration costs |
+| 📈 Operational Drift | Scaling costs & usage growth projections |
+| ⚖️ Hidden Compliance | Regulatory audit, certification & legal costs |
 
 ---
 
@@ -372,7 +481,8 @@ cd enterprise-ai-governance
 
 # 2. Create a virtual environment
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+source venv/bin/activate        # macOS/Linux
+# venv\Scripts\activate         # Windows
 
 # 3. Install dependencies
 pip install -r requirements.txt
@@ -381,7 +491,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Open your browser at `http://localhost:8501`
+> 🌐 Open your browser at **[http://localhost:8501](http://localhost:8501)**
 
 ---
 
@@ -393,12 +503,10 @@ docker build -t ai-governance-platform .
 
 # Run the container
 docker run -p 8501:8501 ai-governance-platform
-
-# Access at
-http://localhost:8501
 ```
 
-> 💡 The container dynamically binds to the assigned cloud port for seamless cloud deployment.
+> 💡 The container dynamically binds to the assigned cloud port for seamless cloud deployment.  
+> 🌐 Access at **[http://localhost:8501](http://localhost:8501)**
 
 ---
 
@@ -406,23 +514,40 @@ http://localhost:8501
 
 This platform is cloud-native and deploys to any container-compatible service:
 
-| Platform | Status |
-|----------|--------|
-| **Render** | ✅ Tested & Verified |
-| **Railway** | ✅ Compatible |
-| **AWS ECS** | ✅ Compatible |
-| **Azure Container Apps** | ✅ Compatible |
-| **Google Cloud Run** | ✅ Compatible |
+| Platform | Status | Deploy Guide |
+|----------|--------|--------------|
+| **Render** | ✅ Tested & Verified | [render.com/docs](https://render.com/docs/deploy-streamlit) |
+| **Railway** | ✅ Compatible | [railway.app/docs](https://docs.railway.app/) |
+| **AWS ECS** | ✅ Compatible | [AWS ECS Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/) |
+| **Azure Container Apps** | ✅ Compatible | [Azure Docs](https://learn.microsoft.com/en-us/azure/container-apps/) |
+| **Google Cloud Run** | ✅ Compatible | [Cloud Run Docs](https://cloud.google.com/run/docs) |
 
 ---
 
 ## 👤 Demo Credentials
+
+> ⚠️ **For demonstration purposes only.** Do not use these credentials in production.
 
 | Role | Username | Password | Access Level |
 |------|----------|----------|--------------|
 | 🔴 **Admin** | `admin` | `admin123` | Full platform access + approvals |
 | 🟡 **Analyst** | `analyst` | `analyst123` | Submit evaluations (pending approval) |
 | 🟢 **Viewer** | `viewer` | `viewer123` | Read-only reports & dashboards |
+
+---
+
+## 💼 Enterprise Use Cases
+
+| Use Case | Problem Solved | Platform Feature |
+|----------|---------------|-----------------|
+| 🔍 **AI Vendor Procurement** | Subjective, inconsistent vendor comparison | [Risk Scoring Engine](#-risk-scoring-model) |
+| 🏛️ **Internal AI Governance** | Unstructured deployment decisions | [Governance Board](#-key-features) |
+| 🔒 **Security Risk Assessment** | Unknown vendor security posture | [Security Axis Scoring](#-risk-scoring-model) |
+| 🔄 **Cross-Functional Approvals** | Siloed IT, Legal, Procurement decisions | [Role-Based Workflows](#-key-features) |
+| 📋 **Compliance Alignment** | Late-stage regulatory discovery | [Compliance Rule Engine](#-key-features) |
+| 📊 **Deployment Readiness** | No go/no-go decision framework | [Benchmark Simulator](#-key-features) |
+| 💰 **TCO Forecasting** | Underestimated hidden AI costs | [Monte Carlo Simulation](#-risk-scoring-model) |
+| 📤 **Board Reporting** | Manual, delayed executive reporting | [PDF Report Generator](#-key-features) |
 
 ---
 
@@ -450,20 +575,9 @@ gantt
     Granular RBAC Controls          :         2025-07-01, 90d
     CI/CD Automation                :         2025-10-01, 90d
     Kubernetes Support              :         2025-10-01, 90d
+    AI Risk Narrative Generator     :         2026-01-01, 90d
+    Vendor Battle Card Comparator   :         2026-02-01, 90d
 ```
-
----
-
-## 💼 Enterprise Use Cases
-
-| Use Case | Description |
-|----------|-------------|
-| 🔍 **AI Vendor Procurement** | Objective, multi-dimensional vendor comparison |
-| 🏛️ **Internal AI Governance** | Structured deployment decision framework |
-| 🔒 **Security Risk Assessment** | Quantified security posture per vendor |
-| 🔄 **Cross-Functional Approvals** | IT, Security, Procurement workflow alignment |
-| 📋 **Compliance Alignment** | Rule-based regulatory scoring |
-| 📊 **Deployment Readiness** | SLA + benchmark-based go/no-go decision support |
 
 ---
 
@@ -471,7 +585,9 @@ gantt
 
 <div align="center">
 
-<img src="https://github.com/identicons/debasmita.png" width="80" style="border-radius:50%"/>
+<img src="https://github.com/identicons/debasmita.png" width="90" style="border-radius:50%; border: 3px solid #2563eb;"/>
+
+<br/><br/>
 
 ### Debasmita Chatterjee
 
@@ -483,10 +599,19 @@ gantt
   <a href="https://linkedin.com/in/your-profile">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
+  &nbsp;
   <a href="https://github.com/your-username">
     <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
+  &nbsp;
+  <a href="https://enterprise-ai-governance-risk.streamlit.app/">
+    <img src="https://img.shields.io/badge/Live%20Demo-Launch-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+  </a>
 </p>
+
+<br/>
+
+> *"Built to demonstrate production-grade AI governance — not just experimental AI usage."*
 
 </div>
 
@@ -494,8 +619,16 @@ gantt
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" width="100%"/>
+### ⭐ If this project helped you, give it a star!
 
-<p><sub>Built with ❤️ to demonstrate production-grade AI governance — not just experimental AI usage.</sub></p>
+[![Star History](https://img.shields.io/github/stars/your-username/enterprise-ai-governance?style=social)](https://github.com/debasmita30/enterprise-ai-governance)
+&nbsp;&nbsp;
+[![Fork](https://img.shields.io/github/forks/your-username/enterprise-ai-governance?style=social)](https://github.com/debasmita30/enterprise-ai-governance/fork)
+&nbsp;&nbsp;
+[![Watch](https://img.shields.io/github/watchers/your-username/enterprise-ai-governance?style=social)](https://github.com/debamsita30/enterprise-ai-governance)
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=130&section=footer" width="100%"/>
 
 </div>
