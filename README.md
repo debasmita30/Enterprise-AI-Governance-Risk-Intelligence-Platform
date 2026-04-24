@@ -1,627 +1,346 @@
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Enterprise%20AI%20Governance&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Risk%20Intelligence%20Platform%20%E2%80%94%20Evaluate.%20Govern.%20Deploy.&descAlignY=58&descSize=16&descColor=7ecbff&animation=fadeIn" width="100%"/>
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0533,50:3d1a6e,100:7b2fa8&height=220&section=header&text=SmartStyle%20Analytics&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=AI-Powered%20Fashion%20Intelligence%20%E2%80%94%20Discover.%20Analyze.%20Recommend.&descAlignY=58&descSize=16&descColor=f0c6ff&animation=fadeIn" width="100%"/>
 <br/>
-
 <p>
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Status-Production_Ready-22c55e?style=for-the-badge&logo=checkmarx&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Status-Live-22c55e?style=for-the-badge&logo=checkmarx&logoColor=white"/>
 </p>
-
 <p>
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square"/>
   <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square"/>
   <img src="https://img.shields.io/badge/Maintained-Yes-blue?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Tests-Passing-success?style=flat-square&logo=pytest"/>
-  <img src="https://img.shields.io/badge/Coverage-94%25-green?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Products_Analyzed-14K%2B-purple?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Avg_Rating-4.1%2F5-orange?style=flat-square"/>
 </p>
-
 <br/>
-
-<a href="https://enterprise-ai-governance-risk.streamlit.app/">
-  <img src="https://img.shields.io/badge/🚀%20%20Live%20Demo%20%20—%20Click%20to%20Launch-2563eb?style=for-the-badge" alt="Live Demo"/>
+<a href="https://smartstyle-analytics.streamlit.app/">
+  <img src="https://img.shields.io/badge/🚀%20%20Live%20App%20%20—%20Click%20to%20Launch-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live App"/>
 </a>
-
+&nbsp;&nbsp;
+<a href="https://app.powerbi.com/view?r=eyJrIjoiMWRiNTBkYTUtNmVhOC00MWI3LTgyZjQtYTA3ZDY3ZWRmYWU0IiwidCI6ImUxNGU3M2ViLTUyNTEtNDM4OC04ZDY3LThmOWYyZTJkNWE0NiIsImMiOjEwfQ==&pageName=6967225da59d13f389f1">
+  <img src="https://img.shields.io/badge/📊%20%20Power%20BI%20Dashboard%20%20—%20View%20Now-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Dashboard"/>
+</a>
 <br/><br/>
 
-> **A production-grade AI governance platform** that helps enterprises evaluate, select, deploy, and monitor AI technologies responsibly — with full audit trails, role-based workflows, and executive reporting.
+A production-grade fashion intelligence platform that combines AI-powered confidence scoring, smart product recommendations, and interactive data visualizations to help shoppers make better decisions and help brands understand what sells — and what gets returned.
 
 <br/>
 
----
-
 </div>
+📋 Table of Contents
+#SectionDescription1🎯 Problem StatementWhy this platform exists2💡 Solution OverviewHow SmartStyle solves it3✨ Key FeaturesFull capability breakdown4🏗️ System ArchitectureHow everything fits together5🧠 AI Confidence ScoreScoring model deep-dive6📁 Project StructureCodebase layout7🧩 DatasetData schema & source8⚙️ Tech StackTools & frameworks used9📊 Tableau DashboardsEmbedded analytics10🚀 Getting StartedLocal setup guide11☁️ Cloud DeploymentStreamlit Cloud deploy12🔮 RoadmapWhat's coming next13🧑‍💻 AuthorAbout the creator
 
-## 📋 Table of Contents
-
-| # | Section | Description |
-|---|---------|-------------|
-| 1 | [🎯 Problem Statement](#-problem-statement) | Why this platform exists |
-| 2 | [✨ Key Features](#-key-features) | What the platform can do |
-| 3 | [🏗️ System Architecture](#-system-architecture) | How it's built |
-| 4 | [📁 Project Structure](#-project-structure) | Codebase layout |
-| 5 | [🔄 Workflow](#-workflow) | End-to-end user journey |
-| 6 | [🛡️ Risk Scoring Model](#-risk-scoring-model) | Multi-factor scoring formula |
-| 7 | [🗄️ Database Schema](#-database-schema) | Data model & relationships |
-| 8 | [🚀 Getting Started](#-getting-started) | Local setup guide |
-| 9 | [🐳 Docker Deployment](#-docker-deployment) | Container deployment |
-| 10 | [☁️ Cloud Deployment](#-cloud-deployment) | Cloud platform support |
-| 11 | [👤 Demo Credentials](#-demo-credentials) | Test login accounts |
-| 12 | [💼 Enterprise Use Cases](#-enterprise-use-cases) | Real-world applications |
-| 13 | [🗺️ Roadmap](#-roadmap) | Planned features |
-| 14 | [🧑‍💻 Author](#-author) | About the creator |
-
----
-
-## 🎯 Problem Statement
-
+🎯 Problem Statement
 <details open>
-<summary><b>🔒 Challenge 1 — Unstructured AI Vendor Selection</b></summary>
-
+<summary><b>🛒 Challenge 1 — The Return Epidemic in Fashion E-Commerce</b></summary>
 <br/>
 
-> Enterprises today select AI vendors based on **informal, inconsistent, and non-auditable** processes. There is no standardized framework to quantify risk across security posture, SLA reliability, data residency, and compliance alignment — leaving organizations exposed to regulatory, financial, and reputational harm.
+Fashion e-commerce has one of the highest return rates of any retail category — often 30–50%. Most platforms surface products by popularity or paid ranking, with no signal about whether buyers actually kept what they ordered. This costs brands billions in logistics, reprocessing, and lost inventory value.
 
-**→ This platform solves it with a [Multi-Factor Risk Scoring Engine](#-risk-scoring-model) that objectively quantifies vendor risk across 6 weighted dimensions.**
-
+→ SmartStyle solves this with an AI Confidence Score that quantifies buyer retention likelihood for every product — surfacing low-return-risk items prominently.
 <br/>
 </details>
-
 <details>
-<summary><b>📋 Challenge 2 — Compliance Blind Spots</b></summary>
-
+<summary><b>🔍 Challenge 2 — Discovery Without Context</b></summary>
 <br/>
 
-> Regulatory requirements such as **GDPR, HIPAA, SOC 2, and ISO 27001** are often treated as afterthoughts in AI procurement. Compliance teams are brought in too late, and no rule-based evaluation framework exists to catch gaps early.
+Shoppers face choice overload with thousands of products and no meaningful way to compare them beyond price and star rating. Brand reputation, rating volume, price-to-quality ratio, and product attributes are all siloed — never synthesized into a single decision signal.
 
-**→ Solved with the [Compliance Rule Engine](#-key-features) that scores vendors against regulatory frameworks at evaluation time — not post-deployment.**
-
+→ Solved by the Smart Recommendation Engine which aggregates multi-dimensional product signals into ranked alternatives and "safer picks" for any item a user views.
 <br/>
 </details>
-
 <details>
-<summary><b>💰 Challenge 3 — Hidden Cost Uncertainty</b></summary>
-
+<summary><b>📉 Challenge 3 — Brand Blind Spots in Performance Data</b></summary>
 <br/>
 
-> AI licensing, integration overhead, and operational drift costs are notoriously difficult to forecast. Most enterprises underestimate total cost of ownership by **30–60%**, leading to budget overruns and vendor lock-in.
+Fashion brands and buyers lack real-time, visual intelligence on how their catalog is performing — which colors drive sales, which price bands underperform, which brands consistently receive high satisfaction. Standard analytics tools require data teams; this platform makes insights self-serve.
 
-**→ Addressed by a [Monte Carlo Cost Simulation](#-risk-scoring-model) that models 300 cost scenarios across license variance, integration overhead, and hidden compliance costs.**
-
+→ Addressed by the Interactive Dashboard Layer — dynamic Plotly charts and a linked Power BI Dashboard delivering brand, color, price, and rating intelligence without writing a single query.
 <br/>
 </details>
-
 <details>
-<summary><b>🔗 Challenge 4 — Vendor Lock-in & Portability Risk</b></summary>
-
+<summary><b>🎨 Challenge 4 — Color & Attribute Demand Is Invisible</b></summary>
 <br/>
 
-> Many AI platforms use proprietary APIs, non-standard data formats, and closed infrastructure — making it costly and technically complex to switch vendors once deployed.
+Platforms rarely expose color-level or attribute-level demand data to buyers or merchandisers. Yet demand is highly concentrated — in this dataset, just two colors (Black and Blue) account for 35%+ of total sales volume — a pattern invisible without structured analysis.
 
-**→ The platform scores [Vendor Lock-in Risk](#-risk-scoring-model) as a weighted dimension in the final risk score, surfacing dependency exposure before contract signing.**
+→ The Color & Category Intelligence module visualizes attribute-level demand concentration, giving merchandisers actionable signals for assortment planning.
+<br/>
+</details>
+<details>
+<summary><b>💸 Challenge 5 — Price-Value Disconnect</b></summary>
+<br/>
 
+Premium pricing in fashion does not reliably predict customer satisfaction. Buyers often cannot determine whether a higher price corresponds to genuinely better quality or merely brand positioning — leading to disappointment, returns, and eroded trust.
+
+→ SmartStyle's Price Distribution Analysis reveals the weak price-value correlation in premium segments, and the confidence score penalizes items with a high price-risk ratio.
 <br/>
 </details>
 
-<details>
-<summary><b>👥 Challenge 5 — Siloed Cross-Functional Approvals</b></summary>
+💡 Solution Overview
+┌─────────────────────────────────────────────────────────────────┐
+│                    SMARTSTYLE ANALYTICS                         │
+│              AI-Powered Fashion Intelligence Layer              │
+├─────────────────┬───────────────────┬───────────────────────────┤
+│  14K+ Products  │  AI Confidence    │  Interactive              │
+│  Analyzed       │  Scoring Engine   │  Visualization Suite      │
+├─────────────────┼───────────────────┼───────────────────────────┤
+│  Multi-signal   │  Smart Product    │  Power BI +               │
+│  Filtering      │  Recommendations  │  Plotly Dashboards        │
+└─────────────────┴───────────────────┴───────────────────────────┘
+         ↓                  ↓                      ↓
+  Shoppers find       Buyers discover         Brands understand
+  what they want      low-return-risk         what sells and why
+  faster              alternatives
+ProblemSmartStyle SolutionImpactHigh return ratesAI Confidence ScoreSurface keeper productsDiscovery overloadSmart RecommendationsRanked alternativesBrand performance blind spotsInteractive dashboardsSelf-serve analyticsColor demand hiddenAttribute intelligenceAssortment planningPrice-value disconnectPrice distribution vizTransparent comparisons
 
+✨ Key Features
+<details open>
+<summary><b>🧠 AI-Powered Confidence Scoring</b></summary>
 <br/>
 
-> AI adoption requires alignment across IT, Security, Procurement, Legal, and Engineering. Without structured workflows, decisions stall, accountability is unclear, and approvals happen outside auditable systems.
+Proprietary multi-signal confidence score (0–100%) per product
+Synthesizes average rating, review volume, and price-risk ratio
+Products with high scores = high buyer retention, low return probability
+Score displayed inline for every product in the catalog
+Used as the primary ranking signal for recommendations
 
-**→ The [Role-Based Workflow System](#-key-features) creates structured approval pipelines with full traceability — every action logged with user, timestamp, and context.**
-
-<br/>
 </details>
-
 <details>
-<summary><b>📊 Challenge 6 — Lack of Executive Visibility</b></summary>
-
-<br/>
-
-> CIOs and CTOs lack real-time visibility into the AI vendor portfolio — its risk profile, approval status, and deployment readiness — making board-level reporting manual, error-prone, and delayed.
-
-**→ The [Executive AI Dashboard](#-key-features) and one-click [PDF Report Generator](#-key-features) deliver portfolio-level intelligence and board-ready exports on demand.**
-
-<br/>
-</details>
-
----
-
-## ✨ Key Features
-
-<div align="center">
-
-| Module | Capability | Highlight |
-|--------|-----------|-----------|
-| ⚙️ Risk Engine | Multi-dimensional vendor scoring | 6-axis weighted formula |
-| 💰 Cost Sim | Monte Carlo projection | 300 iterations |
-| 📊 Dashboard | Executive AI portfolio view | Real-time trend charts |
-| 🏛️ Governance | Ranked vendor leaderboard | Filter by risk & status |
-| 👥 Workflows | Role-based approval pipeline | Full audit trail |
-| 📤 Exports | PDF + Excel report generation | One-click delivery |
-| 🔬 Benchmarks | API performance simulation | P95 latency + throughput |
-| 🔐 Auth | bcrypt-hashed role sessions | Admin / Analyst / Viewer |
-
-</div>
-
+<summary><b>👗 Smart Recommendation Engine</b></summary>
 <br/>
 
-<details>
-<summary><b>⚙️ Vendor Risk Evaluation Engine</b></summary>
+Surfaces alternative products for any item the user views
+Recommends "safer picks" — similar items with higher confidence scores
+Filters by brand, category, price range, and average rating
+Ranks alternatives by combined confidence score + attribute similarity
+Designed to reduce cart abandonment and post-purchase regret
 
-- Multi-dimensional risk scoring across **6 weighted axes**
-- Security, compliance, cost, SLA, and lock-in modeling
-- **Monte Carlo cost simulation** (300 iterations)
-- Automated risk categorization: `Low` / `Moderate` / `High`
-- Radar visualization of full risk profile
-- One-click executive PDF report generation
+</details>
+<details>
+<summary><b>📈 Interactive Visualization Suite</b></summary>
+<br/>
+
+Pricing trend charts — distribution by category and brand
+Brand performance comparison — satisfaction vs. price positioning
+Rating distribution analysis — volume-weighted histogram
+Color demand heatmaps — attribute-level sales concentration
+All charts built with Plotly for zoom, filter, and hover interactions
+
+</details>
+<details>
+<summary><b>💬 Full Product Intelligence Cards</b></summary>
+<br/>
+
+Detailed product descriptions, attributes (style, material, fit)
+Rating count, average rating, confidence score
+Color, brand, price — all surfaced in a unified card
+Image rendering from product URLs
+Attribute tags for style, material, and fit classification
+
+</details>
+<details>
+<summary><b>🔍 Advanced Multi-Signal Filtering</b></summary>
+<br/>
+FilterOptionsBrandAll brands in datasetPrice RangeSlider with min/maxAverage RatingThreshold filter (e.g., ≥ 4.0)Confidence ScoreHigh / Medium / AllColorDominant color filter
+</details>
+<details>
+<summary><b>🌈 Modern Responsive UI</b></summary>
+<br/>
+
+Gradient background with animated visual elements
+Responsive grid layout for product cards
+Streamlit custom CSS styling for a rich, app-like experience
+Mobile-friendly layout with adaptive columns
 
 </details>
 
-<details>
-<summary><b>📊 Executive AI Dashboard</b></summary>
+🏗️ System Architecture
+#mermaid-rn7{font-family:inherit;font-size:16px;fill:#E5E5E5;}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mermaid-rn7 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mermaid-rn7 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mermaid-rn7 .error-icon{fill:#CC785C;}#mermaid-rn7 .error-text{fill:#3387a3;stroke:#3387a3;}#mermaid-rn7 .edge-thickness-normal{stroke-width:1px;}#mermaid-rn7 .edge-thickness-thick{stroke-width:3.5px;}#mermaid-rn7 .edge-pattern-solid{stroke-dasharray:0;}#mermaid-rn7 .edge-thickness-invisible{stroke-width:0;fill:none;}#mermaid-rn7 .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-rn7 .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-rn7 .marker{fill:#A1A1A1;stroke:#A1A1A1;}#mermaid-rn7 .marker.cross{stroke:#A1A1A1;}#mermaid-rn7 svg{font-family:inherit;font-size:16px;}#mermaid-rn7 p{margin:0;}#mermaid-rn7 .label{font-family:inherit;color:#E5E5E5;}#mermaid-rn7 .cluster-label text{fill:#3387a3;}#mermaid-rn7 .cluster-label span{color:#3387a3;}#mermaid-rn7 .cluster-label span p{background-color:transparent;}#mermaid-rn7 .label text,#mermaid-rn7 span{fill:#E5E5E5;color:#E5E5E5;}#mermaid-rn7 .node rect,#mermaid-rn7 .node circle,#mermaid-rn7 .node ellipse,#mermaid-rn7 .node polygon,#mermaid-rn7 .node path{fill:transparent;stroke:#A1A1A1;stroke-width:1px;}#mermaid-rn7 .rough-node .label text,#mermaid-rn7 .node .label text,#mermaid-rn7 .image-shape .label,#mermaid-rn7 .icon-shape .label{text-anchor:middle;}#mermaid-rn7 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mermaid-rn7 .rough-node .label,#mermaid-rn7 .node .label,#mermaid-rn7 .image-shape .label,#mermaid-rn7 .icon-shape .label{text-align:center;}#mermaid-rn7 .node.clickable{cursor:pointer;}#mermaid-rn7 .root .anchor path{fill:#A1A1A1!important;stroke-width:0;stroke:#A1A1A1;}#mermaid-rn7 .arrowheadPath{fill:#0b0b0b;}#mermaid-rn7 .edgePath .path{stroke:#A1A1A1;stroke-width:2.0px;}#mermaid-rn7 .flowchart-link{stroke:#A1A1A1;fill:none;}#mermaid-rn7 .edgeLabel{background-color:transparent;text-align:center;}#mermaid-rn7 .edgeLabel p{background-color:transparent;}#mermaid-rn7 .edgeLabel rect{opacity:0.5;background-color:transparent;fill:transparent;}#mermaid-rn7 .labelBkg{background-color:rgba(0, 0, 0, 0.5);}#mermaid-rn7 .cluster rect{fill:#CC785C;stroke:hsl(15, 12.3364485981%, 48.0392156863%);stroke-width:1px;}#mermaid-rn7 .cluster text{fill:#3387a3;}#mermaid-rn7 .cluster span{color:#3387a3;}#mermaid-rn7 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:inherit;font-size:12px;background:#CC785C;border:1px solid hsl(15, 12.3364485981%, 48.0392156863%);border-radius:2px;pointer-events:none;z-index:100;}#mermaid-rn7 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:#E5E5E5;}#mermaid-rn7 rect.text{fill:none;stroke-width:0;}#mermaid-rn7 .icon-shape,#mermaid-rn7 .image-shape{background-color:transparent;text-align:center;}#mermaid-rn7 .icon-shape p,#mermaid-rn7 .image-shape p{background-color:transparent;padding:2px;}#mermaid-rn7 .icon-shape rect,#mermaid-rn7 .image-shape rect{opacity:0.5;background-color:transparent;fill:transparent;}#mermaid-rn7 .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#mermaid-rn7 .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#mermaid-rn7 :root{--mermaid-font-family:inherit;}☁️ Deployment🌐 UI Layer📊 Visualization Layer🧠 AI & Scoring Layer⚙️ Processing Layer📥 Data LayerFashion Dataset CSV\n14K+ ProductsGitHub Raw\nFile HostingPandas\nData PipelineData Cleaning\n& NormalizationFeature\nEngineeringConfidence Score\nEngineRecommendation\nAlgorithmMulti-Signal\nFilter EnginePlotly\nInteractive ChartsMatplotlib\nStatic ChartsTableau\nPublic DashboardPower BI\nEmbedded DashboardStreamlit\nWeb ApplicationProduct\nIntelligence CardsAnalytics\nDashboardStreamlit Cloud\nsmartshyle-analytics.streamlit.app
 
-- Total vendors evaluated at a glance
-- Average risk score across portfolio
-- Safest vendor identification
-- Evaluation history trend visualization
-- ID-based traceable analytics
+🧠 AI Confidence Score Engine
+The Confidence Score is the platform's core intelligence signal — a composite metric that answers: "How likely is a buyer to keep this product?"
+╔══════════════════════════════════════════════════════════════╗
+║           CONFIDENCE SCORE FORMULA (0 – 100%)               ║
+╠══════════════════════════════════════════════════════════════╣
+║                                                              ║
+║  Confidence Score =                                          ║
+║    (Normalized Avg Rating    × 0.45) +                       ║
+║    (Normalized Review Volume × 0.35) +                       ║
+║    (Inverse Price-Risk Ratio × 0.20)                         ║
+║                                                              ║
+╠══════════════════════════════════════════════════════════════╣
+║  CONFIDENCE TIERS                                            ║
+║  ● 75 – 100  →  🟢 High Confidence   (Keeper product)       ║
+║  ● 50 – 74   →  🟡 Medium Confidence (Likely keeper)        ║
+║  ● 0  – 49   →  🔴 Low Confidence   (Return risk)           ║
+╚══════════════════════════════════════════════════════════════╝
+Signal Breakdown:
+SignalWeightRationale⭐ Average Rating45%Primary proxy for buyer satisfaction📝 Review Volume35%High volume = statistically reliable signal💸 Price-Risk Ratio20%Higher price without proportional rating → return risk
+Key Findings from the Dataset:
 
-</details>
+Average confidence score: ~4.1 / 5.0 across the catalog
+Premium brands show higher ratings but weak price-value correlation
+Black and Blue products account for 35%+ of high-confidence items
 
-<details>
-<summary><b>🏛️ Enterprise Governance Board</b></summary>
 
-- Ranked vendor leaderboard with color-coded risk levels
-- Filter by risk category and approval status
-- Versioned evaluation history
-- Audit-friendly, export-ready view
-
-</details>
-
-<details>
-<summary><b>👥 Role-Based Workflow System</b></summary>
-
-| Role | Permissions |
-|------|-------------|
-| 🔴 **Admin** | Full access, approve/reject, manage users |
-| 🟡 **Analyst** | Submit evaluations (requires admin approval) |
-| 🟢 **Viewer** | Read-only access to reports and dashboards |
-
-</details>
-
-<details>
-<summary><b>📝 Audit Logging</b></summary>
-
-Every governance action is recorded with full traceability:
-
-- ✅ Vendor creation
-- ✅ Approval / rejection actions
-- ✅ Soft delete & recovery
-- ✅ User-action timestamping
-
-</details>
-
-<details>
-<summary><b>📤 Export & Reporting</b></summary>
-
-- Executive PDF risk reports
-- Excel export of vendor rankings
-- Structured deployment summaries
-
-</details>
-
-<details>
-<summary><b>🔬 API Benchmark Simulation</b></summary>
-
-Mirrors real AI deployment performance evaluation:
-
-- Latency distribution analysis
-- P95 measurement
-- Throughput simulation
-- SLA tier classification
-- System health scoring
-
-</details>
-
-<details>
-<summary><b>🆕 New — Advancement: AI-Assisted Risk Narrative Generator</b></summary>
-
-- **Automated plain-language risk summaries** for each vendor evaluation
-- Converts numerical scores into board-readable governance narratives
-- Flags anomalies, outliers, and regulatory exposure in natural language
-- Paired with PDF export for instant executive briefings
-
-</details>
-
-<details>
-<summary><b>🆕 New — Advancement: Comparative Vendor Battle Card</b></summary>
-
-- Side-by-side visual comparison of up to **4 vendors simultaneously**
-- Highlights dimension-wise winners, red flags, and tradeoff analysis
-- Exportable as a 1-page PDF for procurement meetings
-- Score delta visualization across all 6 risk axes
-
-</details>
-
----
-
-## 🏗️ System Architecture
-
-```mermaid
-graph TB
-    subgraph CLIENT["🌐 Client Layer"]
-        UI[Streamlit SaaS UI]
-    end
-
-    subgraph AUTH["🔐 Auth & Role Layer"]
-        RBAC[Role-Based Access Control]
-        BCRYPT[bcrypt Password Hashing]
-        SESSIONS[Session Management]
-    end
-
-    subgraph CORE["⚙️ Core Application"]
-        direction LR
-        EVAL[Vendor Risk\nEvaluation Engine]
-        DASH[Executive\nDashboard]
-        GOV[Governance\nBoard]
-        BENCH[API Benchmark\nSimulator]
-    end
-
-    subgraph MODEL["📐 Risk Modeling Layer"]
-        MONTE[Monte Carlo\nSimulation\n300 iterations]
-        WEIGHT[Weighted Risk\nScoring Engine]
-        SLA[SLA Tier\nModeling]
-        COMP[Compliance\nRule Engine]
-    end
-
-    subgraph DATA["🗄️ Data Layer"]
-        DB[(SQLite DB)]
-        VENDORS[Vendors Table]
-        AUDIT[Audit Log Table]
-    end
-
-    subgraph EXPORT["📤 Export Layer"]
-        PDF[PDF Report\nGenerator]
-        EXCEL[Excel Export]
-    end
-
-    UI --> AUTH
-    AUTH --> CORE
-    CORE --> MODEL
-    MODEL --> DATA
-    CORE --> EXPORT
-    DATA --> VENDORS
-    DATA --> AUDIT
-
-    style CLIENT fill:#1e3a5f,stroke:#3b82f6,color:#fff
-    style AUTH fill:#1e1e3f,stroke:#8b5cf6,color:#fff
-    style CORE fill:#1a3a2a,stroke:#22c55e,color:#fff
-    style MODEL fill:#3a1a1a,stroke:#ef4444,color:#fff
-    style DATA fill:#1a2a3a,stroke:#06b6d4,color:#fff
-    style EXPORT fill:#2a1a3a,stroke:#a855f7,color:#fff
-```
-
----
-
-## 📁 Project Structure
-
-```
-enterprise-ai-governance/
+📁 Project Structure
+smartstyle-analytics/
 │
 ├── 📄 app.py                        # Main Streamlit application entrypoint
 ├── 📄 requirements.txt              # Python dependencies
-├── 🐳 Dockerfile                    # Container configuration
-├── 📄 .dockerignore
 ├── 📄 README.md
 │
-├── 📂 modules/                      # Core application modules
-│   ├── 📄 auth.py                   # Authentication & session management
-│   ├── 📄 risk_engine.py            # Multi-factor risk scoring logic
-│   ├── 📄 monte_carlo.py            # Cost simulation (300 iterations)
-│   ├── 📄 compliance.py             # Rule-based compliance scoring
-│   ├── 📄 sla_model.py              # SLA tier classification
-│   └── 📄 benchmark.py             # API performance simulation
+├── 📂 data/                         # Dataset layer
+│   └── 📄 Fashion_Dataset.csv       # 14K+ product records
+│                                    # (also hosted via GitHub Raw URL)
 │
-├── 📂 database/                     # Data persistence layer
-│   ├── 📄 schema.py                 # Table definitions & migrations
-│   ├── 📄 vendors.py                # Vendor CRUD operations
-│   └── 📄 audit_log.py             # Governance action logging
+├── 📂 modules/                      # Core logic modules
+│   ├── 📄 confidence_score.py       # AI scoring engine
+│   ├── 📄 recommender.py            # Smart recommendation logic
+│   ├── 📄 data_loader.py            # GitHub raw CSV fetcher + cache
+│   └── 📄 filters.py               # Multi-signal filter pipeline
 │
-├── 📂 pages/                        # Streamlit multi-page components
-│   ├── 📄 1_dashboard.py            # Executive AI Dashboard
-│   ├── 📄 2_evaluation.py           # Vendor Risk Evaluation
-│   ├── 📄 3_governance.py           # Governance Board
-│   ├── 📄 4_workflows.py            # Role-based approval workflows
-│   └── 📄 5_benchmarks.py          # API Benchmark Simulation
+├── 📂 visualizations/               # Chart generation layer
+│   ├── 📄 brand_analysis.py         # Brand performance charts
+│   ├── 📄 price_distribution.py     # Price range visualizations
+│   ├── 📄 rating_charts.py          # Rating distribution + trends
+│   └── 📄 color_heatmap.py         # Color demand concentration
 │
-├── 📂 reports/                      # Export & report generation
-│   ├── 📄 pdf_generator.py          # Executive PDF reports
-│   └── 📄 excel_export.py          # Excel vendor rankings
+├── 📂 components/                   # UI building blocks
+│   ├── 📄 product_card.py           # Product intelligence card renderer
+│   ├── 📄 dashboard.py              # Analytics dashboard layout
+│   └── 📄 sidebar_filters.py       # Filter panel component
 │
-├── 📂 assets/                       # Static assets
-│   └── 📄 styles.css               # Custom Streamlit styling
-│
-└── 📂 tests/                        # Unit & integration tests
-    ├── 📄 test_risk_engine.py
-    ├── 📄 test_auth.py
-    └── 📄 test_database.py
-```
+└── 📂 assets/                       # Static assets
+    └── 📄 styles.css               # Custom Streamlit CSS styling
 
----
+🧩 Dataset Information
+Dataset: Fashion_Dataset.csv
+Scale: 14,000+ fashion products
+Source: Custom-curated dataset inspired by e-commerce fashion platforms
+ColumnTypeDescriptionp_idstringUnique product identifiernamestringProduct display namepricefloatListed price (₹)colourstringDominant product colorbrandstringBrand nameimgstringProduct image URLratingCountintTotal number of customer ratingsavg_ratingfloatMean customer rating (0–5)descriptionstringFull product descriptionp_attributesstringStyle, material, fit attributes
+Dataset Highlights:
 
-## 🔄 Workflow
+🎨 Black & Blue are top-performing colors — 35%+ sales concentration
+⭐ Average rating across catalog: ~4.1 / 5.0
+💰 Premium brands show higher ratings but weak price-value correlation
+📦 Wide price range enabling meaningful distribution analysis
 
-```mermaid
-sequenceDiagram
-    actor Analyst
-    actor Admin
-    participant System as 🖥️ Platform
-    participant DB as 🗄️ Database
-    participant Log as 📝 Audit Log
 
-    Analyst->>System: Submit Vendor Evaluation
-    System->>System: Run Risk Scoring Engine
-    System->>System: Monte Carlo Simulation
-    System->>DB: Save as PENDING
-    System->>Log: Log: "Evaluation Submitted"
-    System-->>Analyst: ✅ Submission Confirmed
+⚙️ Tech Stack
+LayerTechnologyPurposeFrontend / AppStreamlitInteractive web application frameworkData ProcessingPython, Pandas, NumPyCleaning, transformation, feature engineeringAI / ScoringPython (custom logic)Confidence score + recommendation engineInteractive ChartsPlotlyDynamic, filterable visualizationsStatic ChartsMatplotlibSupplementary visual analysisBI DashboardTableau PublicEmbedded category & brand dashboardsExecutive BIMicrosoft Power BIEmbedded analytics dashboardDataset HostingGitHub Raw URLsZero-infrastructure CSV servingDeploymentStreamlit CloudFree-tier cloud hosting
 
-    Admin->>System: Review Governance Board
-    System->>DB: Fetch PENDING vendors
-    DB-->>System: Return vendor list
-    System-->>Admin: Display ranked leaderboard
+📊 Tableau Dashboards
+The platform is paired with a full Power BI Dashboard delivering four dedicated views:
+<details open>
+<summary><b>📦 Category Performance Overview</b></summary>
 
-    Admin->>System: Approve / Reject Vendor
-    System->>DB: Update status → APPROVED
-    System->>Log: Log: "Admin Approval Action"
-    System-->>Admin: ✅ Workflow Complete
+Average ratings and price distributions visualized per fashion category
+Identifies which product types consistently satisfy customers
+Highlights underperforming categories with rating dips and high variance
 
-    Admin->>System: Generate PDF Report
-    System-->>Admin: 📄 Executive Risk Report
-```
+</details>
+<details>
+<summary><b>🏷️ Brand Comparison Intelligence</b></summary>
 
----
+Side-by-side brand performance ranked by customer satisfaction score
+Overlays average price to expose brands with poor price-value delivery
+Filterable by price band to compare brands within fair segments
 
-## 🛡️ Risk Scoring Model
+</details>
+<details>
+<summary><b>💰 Price Distribution Analysis</b></summary>
 
-The platform evaluates vendors across **6 weighted dimensions**:
+Full catalog price distribution across buckets (budget → luxury)
+Correlation scatter: price vs. average rating per product
+Confirms weak price-to-satisfaction correlation in premium segments
 
-```
-╔══════════════════════════════════════════════════════════╗
-║              MULTI-FACTOR RISK SCORE FORMULA             ║
-╠══════════════════════════════════════════════════════════╣
-║                                                          ║
-║  Risk Score =                                            ║
-║    (Security Score      × 0.30) +                        ║
-║    (Compliance Score    × 0.25) +                        ║
-║    (SLA Reliability     × 0.20) +                        ║
-║    (Cost Efficiency     × 0.10) +                        ║
-║    (Vendor Lock-in Risk × 0.10) +                        ║
-║    (Data Residency      × 0.05)                          ║
-║                                                          ║
-╠══════════════════════════════════════════════════════════╣
-║  RISK CATEGORIES                                         ║
-║  ● 0.00 – 0.39  →  🟢 Low Risk                          ║
-║  ● 0.40 – 0.69  →  🟡 Moderate Risk                     ║
-║  ● 0.70 – 1.00  →  🔴 High Risk                         ║
-╚══════════════════════════════════════════════════════════╝
-```
+</details>
+<details>
+<summary><b>👥 Customer Insight Trends</b></summary>
 
-**Monte Carlo Simulation** runs 300 cost scenarios, sampling variance across:
+Rating volume trends across the catalog
+Description-length vs. rating analysis (do detailed descriptions correlate with satisfaction?)
+Color demand concentration: Black, Blue → 35%+ of catalog volume
 
-| Variable | Description |
-|----------|-------------|
-| 💳 License Fee | Pricing tier uncertainty & contract variability |
-| 🔧 Integration Overhead | Setup, migration, and API integration costs |
-| 📈 Operational Drift | Scaling costs & usage growth projections |
-| ⚖️ Hidden Compliance | Regulatory audit, certification & legal costs |
+</details>
 
----
+🚀 Getting Started
+Option 1 — Run Locally
+bash# 1. Clone the repository
+git clone https://github.com/debasmita30/SmartStyle-Analytics-AI-Powered-Fashion-Recommendation-Insights-Platform.git
+cd SmartStyle-Analytics-AI-Powered-Fashion-Recommendation-Insights-Platform
 
-## 🗄️ Database Schema
-
-```mermaid
-erDiagram
-    VENDORS {
-        int id PK
-        string vendor_name
-        float security_score
-        float compliance_score
-        float sla_score
-        float cost_score
-        float lock_in_score
-        float data_residency_score
-        float final_risk_score
-        string risk_category
-        string status
-        string created_by
-        string approved_by
-        bool is_deleted
-        datetime created_at
-    }
-
-    AUDIT_LOGS {
-        int id PK
-        string username
-        string action
-        string vendor_name
-        datetime timestamp
-    }
-
-    USERS {
-        int id PK
-        string username
-        string password_hash
-        string role
-        datetime created_at
-    }
-
-    USERS ||--o{ VENDORS : "creates"
-    USERS ||--o{ AUDIT_LOGS : "generates"
-    VENDORS ||--o{ AUDIT_LOGS : "tracked_by"
-```
-
----
-
-## 🚀 Getting Started
-
-### Option 1 — Local Installation
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/your-username/enterprise-ai-governance.git
-cd enterprise-ai-governance
-
-# 2. Create a virtual environment
+# 2. Create and activate a virtual environment
 python -m venv venv
-source venv/bin/activate        # macOS/Linux
+source venv/bin/activate        # macOS / Linux
 # venv\Scripts\activate         # Windows
 
 # 3. Install dependencies
 pip install -r requirements.txt
 
-# 4. Launch the platform
+# 4. Launch the app
 streamlit run app.py
-```
 
-> 🌐 Open your browser at **[http://localhost:8501](http://localhost:8501)**
+🌐 The app will open automatically at http://localhost:8501
 
----
+Option 2 — Quick Install (No venv)
+bashpip install streamlit pandas numpy matplotlib plotly
+streamlit run app.py
 
-## 🐳 Docker Deployment
+☁️ Cloud Deployment
+Streamlit Cloud (Recommended — Free)
+1. Push repository to GitHub
+2. Visit https://share.streamlit.io
+3. Click "New app"
+4. Select your repo → set entrypoint to app.py
+5. Set subdomain → smartstyle-analytics.streamlit.app
+6. Click Deploy → live in seconds 🚀
+PlatformStatusNotesStreamlit Cloud✅ Live & DeployedFree tier, instant deployRender✅ CompatibleAdd Procfile: web: streamlit run app.pyRailway✅ CompatibleAuto-detects Python + StreamlitHugging Face Spaces✅ CompatibleUse Streamlit SDK space type
 
-```bash
-# Build the image
-docker build -t ai-governance-platform .
+🔮 Roadmap
+#mermaid-rnd{font-family:inherit;font-size:16px;fill:#E5E5E5;}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mermaid-rnd .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mermaid-rnd .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mermaid-rnd .error-icon{fill:#CC785C;}#mermaid-rnd .error-text{fill:#3387a3;stroke:#3387a3;}#mermaid-rnd .edge-thickness-normal{stroke-width:1px;}#mermaid-rnd .edge-thickness-thick{stroke-width:3.5px;}#mermaid-rnd .edge-pattern-solid{stroke-dasharray:0;}#mermaid-rnd .edge-thickness-invisible{stroke-width:0;fill:none;}#mermaid-rnd .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-rnd .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-rnd .marker{fill:#A1A1A1;stroke:#A1A1A1;}#mermaid-rnd .marker.cross{stroke:#A1A1A1;}#mermaid-rnd svg{font-family:inherit;font-size:16px;}#mermaid-rnd p{margin:0;}#mermaid-rnd .mermaid-main-font{font-family:inherit;}#mermaid-rnd .exclude-range{fill:#eeeeee;}#mermaid-rnd .section{stroke:none;opacity:0.2;}#mermaid-rnd .section0{fill:#CC785C;}#mermaid-rnd .section2{fill:transparent;}#mermaid-rnd .section1,#mermaid-rnd .section3{fill:white;opacity:0.2;}#mermaid-rnd .sectionTitle0{fill:#3387a3;}#mermaid-rnd .sectionTitle1{fill:#3387a3;}#mermaid-rnd .sectionTitle2{fill:#3387a3;}#mermaid-rnd .sectionTitle3{fill:#3387a3;}#mermaid-rnd .sectionTitle{text-anchor:start;font-family:inherit;}#mermaid-rnd .grid .tick{stroke:lightgrey;opacity:0.8;shape-rendering:crispEdges;}#mermaid-rnd .grid .tick text{font-family:inherit;fill:#E5E5E5;}#mermaid-rnd .grid path{stroke-width:0;}#mermaid-rnd .today{fill:none;stroke:red;stroke-width:2px;}#mermaid-rnd .task{stroke-width:2;}#mermaid-rnd .taskText{text-anchor:middle;font-family:inherit;}#mermaid-rnd .taskTextOutsideRight{fill:#E5E5E5;text-anchor:start;font-family:inherit;}#mermaid-rnd .taskTextOutsideLeft{fill:#E5E5E5;text-anchor:end;}#mermaid-rnd .task.clickable{cursor:pointer;}#mermaid-rnd .taskText.clickable{cursor:pointer;fill:#003163!important;font-weight:bold;}#mermaid-rnd .taskTextOutsideLeft.clickable{cursor:pointer;fill:#003163!important;font-weight:bold;}#mermaid-rnd .taskTextOutsideRight.clickable{cursor:pointer;fill:#003163!important;font-weight:bold;}#mermaid-rnd .taskText0,#mermaid-rnd .taskText1,#mermaid-rnd .taskText2,#mermaid-rnd .taskText3{fill:#E5E5E5;}#mermaid-rnd .task0,#mermaid-rnd .task1,#mermaid-rnd .task2,#mermaid-rnd .task3{fill:transparent;stroke:#A1A1A1;}#mermaid-rnd .taskTextOutside0,#mermaid-rnd .taskTextOutside2{fill:#E5E5E5;}#mermaid-rnd .taskTextOutside1,#mermaid-rnd .taskTextOutside3{fill:#E5E5E5;}#mermaid-rnd .active0,#mermaid-rnd .active1,#mermaid-rnd .active2,#mermaid-rnd .active3{fill:hsla(0, 0%, 23%, 0);stroke:transparent;}#mermaid-rnd .activeText0,#mermaid-rnd .activeText1,#mermaid-rnd .activeText2,#mermaid-rnd .activeText3{fill:#E5E5E5!important;}#mermaid-rnd .done0,#mermaid-rnd .done1,#mermaid-rnd .done2,#mermaid-rnd .done3{stroke:grey;fill:lightgrey;stroke-width:2;}#mermaid-rnd .doneText0,#mermaid-rnd .doneText1,#mermaid-rnd .doneText2,#mermaid-rnd .doneText3{fill:#E5E5E5!important;}#mermaid-rnd .crit0,#mermaid-rnd .crit1,#mermaid-rnd .crit2,#mermaid-rnd .crit3{stroke:#ff8888;fill:red;stroke-width:2;}#mermaid-rnd .activeCrit0,#mermaid-rnd .activeCrit1,#mermaid-rnd .activeCrit2,#mermaid-rnd .activeCrit3{stroke:#ff8888;fill:hsla(0, 0%, 23%, 0);stroke-width:2;}#mermaid-rnd .doneCrit0,#mermaid-rnd .doneCrit1,#mermaid-rnd .doneCrit2,#mermaid-rnd .doneCrit3{stroke:#ff8888;fill:lightgrey;stroke-width:2;cursor:pointer;shape-rendering:crispEdges;}#mermaid-rnd .milestone{transform:rotate(45deg) scale(0.8,0.8);}#mermaid-rnd .milestoneText{font-style:italic;}#mermaid-rnd .doneCritText0,#mermaid-rnd .doneCritText1,#mermaid-rnd .doneCritText2,#mermaid-rnd .doneCritText3{fill:#E5E5E5!important;}#mermaid-rnd .vert{stroke:navy;}#mermaid-rnd .vertText{font-size:15px;text-anchor:middle;fill:navy!important;}#mermaid-rnd .activeCritText0,#mermaid-rnd .activeCritText1,#mermaid-rnd .activeCritText2,#mermaid-rnd .activeCritText3{fill:#E5E5E5!important;}#mermaid-rnd .titleText{text-anchor:middle;font-size:18px;fill:#3387a3;font-family:inherit;}#mermaid-rnd :root{--mermaid-font-family:inherit;} Oct 2024 Jan 2025 Apr 2025 Jul 2025 Oct 2025 Jan 2026 Apr 2026AI Confidence Scoring Engine     Interactive Plotly Charts        Smart Recommendations            Power BI Dashboard               Streamlit Cloud Deployment       NLP Sentiment on Descriptions    Collaborative Filtering Engine   User Session Personalization     Visual Similarity Search         Real-time Trend Prediction       Return Probability API           Multi-platform Data Integration  ✅ Completed🔧 Near-term🚀 FutureSmartStyle Analytics Roadmap
+Planned Features in Detail:
+FeatureDescriptionPriority🗣️ NLP Sentiment AnalysisAnalyze product descriptions & infer quality signalsHigh🤝 Collaborative Filtering"Users like you also kept..." recommendationsHigh🖼️ Visual Similarity SearchUpload image → get visually similar productsMedium📈 Sales Trend PredictionForecast which products will trend next seasonMedium🔁 Return Probability APIExpose confidence score as a standalone REST APILow🌍 Multi-platform DataIntegrate live data from Myntra, Amazon FashionFuture
 
-# Run the container
-docker run -p 8501:8501 ai-governance-platform
-```
-
-> 💡 The container dynamically binds to the assigned cloud port for seamless cloud deployment.  
-> 🌐 Access at **[http://localhost:8501](http://localhost:8501)**
-
----
-
-## ☁️ Cloud Deployment
-
-This platform is cloud-native and deploys to any container-compatible service:
-
-| Platform | Status | Deploy Guide |
-|----------|--------|--------------|
-| **Render** | ✅ Tested & Verified | [render.com/docs](https://render.com/docs/deploy-streamlit) |
-| **Railway** | ✅ Compatible | [railway.app/docs](https://docs.railway.app/) |
-| **AWS ECS** | ✅ Compatible | [AWS ECS Guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/) |
-| **Azure Container Apps** | ✅ Compatible | [Azure Docs](https://learn.microsoft.com/en-us/azure/container-apps/) |
-| **Google Cloud Run** | ✅ Compatible | [Cloud Run Docs](https://cloud.google.com/run/docs) |
-
----
-
-## 👤 Demo Credentials
-
-> ⚠️ **For demonstration purposes only.** Do not use these credentials in production.
-
-| Role | Username | Password | Access Level |
-|------|----------|----------|--------------|
-| 🔴 **Admin** | `admin` | `admin123` | Full platform access + approvals |
-| 🟡 **Analyst** | `analyst` | `analyst123` | Submit evaluations (pending approval) |
-| 🟢 **Viewer** | `viewer` | `viewer123` | Read-only reports & dashboards |
-
----
-
-## 💼 Enterprise Use Cases
-
-| Use Case | Problem Solved | Platform Feature |
-|----------|---------------|-----------------|
-| 🔍 **AI Vendor Procurement** | Subjective, inconsistent vendor comparison | [Risk Scoring Engine](#-risk-scoring-model) |
-| 🏛️ **Internal AI Governance** | Unstructured deployment decisions | [Governance Board](#-key-features) |
-| 🔒 **Security Risk Assessment** | Unknown vendor security posture | [Security Axis Scoring](#-risk-scoring-model) |
-| 🔄 **Cross-Functional Approvals** | Siloed IT, Legal, Procurement decisions | [Role-Based Workflows](#-key-features) |
-| 📋 **Compliance Alignment** | Late-stage regulatory discovery | [Compliance Rule Engine](#-key-features) |
-| 📊 **Deployment Readiness** | No go/no-go decision framework | [Benchmark Simulator](#-key-features) |
-| 💰 **TCO Forecasting** | Underestimated hidden AI costs | [Monte Carlo Simulation](#-risk-scoring-model) |
-| 📤 **Board Reporting** | Manual, delayed executive reporting | [PDF Report Generator](#-key-features) |
-
----
-
-## 🗺️ Roadmap
-
-```mermaid
-gantt
-    title Platform Roadmap
-    dateFormat  YYYY-MM-DD
-    axisFormat  %b %Y
-
-    section ✅ Current
-    Multi-factor Risk Scoring       :done,    2024-07-01, 90d
-    Monte Carlo Simulation          :done,    2024-07-01, 90d
-    Role-Based Workflows            :done,    2024-08-01, 60d
-    Docker + Cloud Deployment       :done,    2024-10-01, 60d
-
-    section 🔧 Near-term
-    Real-time API Benchmarking      :active,  2025-01-01, 90d
-    PostgreSQL Migration            :active,  2025-02-01, 90d
-    Immutable Audit Ledger          :         2025-04-01, 90d
-
-    section 🚀 Future
-    Multi-region Compliance Maps    :         2025-07-01, 90d
-    Granular RBAC Controls          :         2025-07-01, 90d
-    CI/CD Automation                :         2025-10-01, 90d
-    Kubernetes Support              :         2025-10-01, 90d
-    AI Risk Narrative Generator     :         2026-01-01, 90d
-    Vendor Battle Card Comparator   :         2026-02-01, 90d
-```
-
----
-
-## 🧑‍💻 Author
-
+🧑‍💻 Author
 <div align="center">
-
-<img src="https://github.com/identicons/debasmita.png" width="90" style="border-radius:50%; border: 3px solid #2563eb;"/>
-
+<img src="https://github.com/identicons/debasmita30.png" width="90" style="border-radius:50%; border: 3px solid #7b2fa8;"/>
 <br/><br/>
-
-### Debasmita Chatterjee
-
-*Computer Science Undergraduate*
-
-**Applied AI · Governance Systems · AI Deployment Strategy**
-
+Debasmita Chatterjee
+Computer Science Undergraduate · B.Tech CSE + Minor in Data Science
+Lovely Professional University, Punjab, India
+Machine Learning · Data Science · AI Systems · NLP · Visualization
 <p>
-  <a href="https://linkedin.com/in/your-profile">
+  <a href="https://www.linkedin.com/in/debasmita-chatterjee/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   &nbsp;
-  <a href="https://github.com/your-username">
+  <a href="https://github.com/debasmita30">
     <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
   &nbsp;
-  <a href="https://enterprise-ai-governance-risk.streamlit.app/">
+  <a href="https://ml-engineer-portfolio-f2df.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-Visit-7b2fa8?style=for-the-badge&logo=vercel&logoColor=white"/>
+  </a>
+  &nbsp;
+  <a href="https://smartstyle-analytics.streamlit.app/">
     <img src="https://img.shields.io/badge/Live%20Demo-Launch-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
   </a>
 </p>
-
 <br/>
 
-> *"Built to demonstrate production-grade AI governance — not just experimental AI usage."*
+"Built to show that fashion intelligence isn't just for billion-dollar platforms — it's a data problem, and data problems have solutions."
 
 </div>
 
----
-
 <div align="center">
-
-### ⭐ If this project helped you, give it a star!
-
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=130&section=footer" width="100%"/>
-
+⭐ If this project helped or inspired you, give it a star!
+<br/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7b2fa8,50:3d1a6e,100:1a0533&height=130&section=footer" width="100%"/>
 </div>
