@@ -9,6 +9,7 @@
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
   <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white"/>
   <img src="https://img.shields.io/badge/Status-Production_Ready-22c55e?style=for-the-badge&logo=checkmarx&logoColor=white"/>
 </p>
 
@@ -292,6 +293,12 @@ graph TB
         EXCEL[Excel Export]
     end
 
+    subgraph AGILE["🧩 Agile & Project Layer"]
+        JIRA[Jira Sprint Planning\n& Issue Tracking]
+        SPRINTS[Scrum Boards\n& Backlogs]
+        GH[GitHub PR\nIntegration]
+    end
+
     UI --> AUTH
     AUTH --> CORE
     CORE --> MODEL
@@ -299,6 +306,7 @@ graph TB
     CORE --> EXPORT
     DATA --> VENDORS
     DATA --> AUDIT
+    AGILE --> CORE
 
     style CLIENT fill:#1e3a5f,stroke:#3b82f6,color:#fff
     style AUTH fill:#1e1e3f,stroke:#8b5cf6,color:#fff
@@ -306,6 +314,7 @@ graph TB
     style MODEL fill:#3a1a1a,stroke:#ef4444,color:#fff
     style DATA fill:#1a2a3a,stroke:#06b6d4,color:#fff
     style EXPORT fill:#2a1a3a,stroke:#a855f7,color:#fff
+    style AGILE fill:#1a2a1a,stroke:#0052CC,color:#fff
 ```
 
 ---
@@ -578,6 +587,32 @@ gantt
     AI Risk Narrative Generator     :         2026-01-01, 90d
     Vendor Battle Card Comparator   :         2026-02-01, 90d
 ```
+
+---
+
+---
+
+## 🧩 Agile Development Workflow
+
+This project follows an Agile-based development workflow using Jira for sprint planning, issue tracking, and collaborative task management.
+
+### Jira Workflow Highlights
+
+- Sprint-based project planning
+- Issue tracking with Scrum boards
+- GitHub branch and pull request integration
+- Task lifecycle management (`To Do → In Progress → Done`)
+- Development activity linked directly to Jira work items
+
+### Sample Development Tasks
+
+| Issue Key | Task |
+|-----------|------|
+| SCRUM-5 | Implement RBAC workflow |
+| SCRUM-6 | Add audit logging module |
+| SCRUM-7 | Dockerize backend deployment |
+
+This workflow improves development visibility, collaboration, and deployment management across the project lifecycle.
 
 ---
 
