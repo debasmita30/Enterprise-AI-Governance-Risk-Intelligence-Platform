@@ -590,6 +590,8 @@ gantt
 
 ---
 
+---
+
 ## 🧩 Agile Development Workflow
 
 This project follows an Agile-based development workflow using Jira for sprint planning, issue tracking, and collaborative task management.
